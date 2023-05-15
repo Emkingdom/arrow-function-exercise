@@ -14,7 +14,9 @@ function double(arr) {
 
 ### Refactor 
 
-`const double = arr => arr.map(val => val * 2)`
+```
+const double = arr => arr.map(val => val * 2)
+```
 
 ### Refactor the following function to use arrow functions
 
@@ -32,4 +34,6 @@ function squareAndFindEvens(numbers){
 ```
 ### Refactor 
 
-`const squaresAndFindEvens = numbers => numbers.map(num => num**2).filter(square => square % 2 === 0)`
+```
+const squaresAndFindEvens = numbers => numbers.map(num => num**2).filter(square => square % 2 === 0)
+```
